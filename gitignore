@@ -1,0 +1,40 @@
+# Data files
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.npy
+*.csv
+
+# NeuroMM data folders
+train_data/
+candidate_data/
+neuromm_data/
+neuromm26_data/
+processed/
+annotations/
+archives/
+candidate/
+splits/
+candidate_track1/
+
+# Results and checkpoints
+neuromm26_results/
+results/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+submission.csv
+sample_submission.zip
+
+# Secrets
+.env
+*.token
+huggingface_token.txt
+
+# Python and notebook artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
